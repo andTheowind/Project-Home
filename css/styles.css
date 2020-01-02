@@ -1,0 +1,411 @@
+
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+header nav {
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+}
+header nav a {
+	text-decoration: none;
+	color: #000000;
+}
+header nav a:hover {
+	padding-bottom: 5px;
+	border-bottom: 3px solid #f26522;
+}
+.header-logo {
+	margin: 0 70px 0 100px;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0 10px 0 10px;
+}
+.scroll-pic {
+	background-repeat: no-repeat !important;
+	background-size: 100% !important;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 110px;
+	min-height: 100% !important;
+}
+.scroll-pic:first-child {
+	margin-bottom: 40px;
+}
+.scroll-pic:nth-of-type() {
+	margin-bottom: 0;
+	background-size: 100% !important;
+}
+.house-details {
+	background: url('../images/Rectangle 1 copy.png');
+	color: #fff;
+	min-height: 100% !important;
+}
+.house-details, .estate-news {
+	padding-bottom: 250px;
+}
+article h2 {
+	font-family: Roboto;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #ffffff;
+	letter-spacing: normal;
+}
+article h3 {
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: bold;
+	color: #333333;
+	letter-spacing: normal;
+	line-height: 0.7;
+}
+article h4 {
+	font-family: Roboto;
+	font-size: 36px;
+	font-weight: 900;
+	color: #f26522;
+	letter-spacing: normal;
+	line-height: 1.25;
+}
+.house-details h2 {
+	padding-top: 120px;
+}
+.house-details p {
+	font-size: 20px;
+	margin: 25px 0 60px 0;
+	line-height: 1.5;
+}
+.house-details {
+	text-align: center;
+}
+.scroll-pic form {
+	font-family: 'Roboto', sans-serif;
+}
+.scroll-pic form input {
+	height: 55px;
+	border: none;
+	box-sizing: border-box;
+	vertical-align: middle !important;
+}
+.scroll-pic form p {
+	box-shadow: 0 0 0 15px #7c3512;
+	width: 551px;
+	display: flex;
+	margin: 30px auto 0 auto;
+}
+.input-submit {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	padding-left: 20px;
+	width: 400px;
+}
+.input-submit::placeholder {
+	color: #bdbdbd; /* Цвет текста */
+    line-height: 3.75;
+}
+.button {
+	background: #f26522;
+	border: none;
+	height: 55px;
+	align-items: flex-start !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	padding: 1px 25px 1px 25px;
+	width: 159px;
+}
+.button:hover {
+	cursor: pointer;
+}
+.easy-steps h2 {
+	font-size: bolder;
+	font-size: 40px;
+	text-align: center;
+}
+.hr-lines {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.hr-lines hr {
+	width: 100px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+}
+.main-line {
+	border: 3px solid #f26522;
+}
+.left-right-line {
+	width: 90px;
+}
+.cards {
+	display: flex;
+	justify-content: center;
+}
+.card {
+	width: 280px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(73, 195, 242, 0.3);
+	margin-left: 12px;
+	margin-right: 12px;
+	padding: 25px 20px;
+	background-color: #fff;
+}
+.card p {
+	margin-top: 20px;
+	font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: center;
+    color: #898989;
+}
+.card span {
+	font-size: 22px;
+	color: #f26522;
+	font-weight: bold;
+}
+.card h4 {
+	margin-bottom: 15px;
+}
+.no-view-logo {
+	background: url('../images/Forma 3.png') no-repeat;
+}
+.key-features {
+	align-items: center;
+	margin-bottom: 100px;
+}
+.key-features, .easy-steps {
+	padding-right: 150px;
+	padding-left: 150px;
+}
+.easy-steps .card {
+	height: 175px;
+	padding-bottom: 10px;
+}
+.easy-steps .card span {
+	font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.04;
+    letter-spacing: normal;
+    color: #f26522;
+}
+.easy-steps .card p {
+	margin-top: 5px;
+}
+.key-features section, .easy-steps section {
+	margin-top: 50px;
+}
+.key-features h3 {
+	text-align: center;
+}
+.easy-steps .left-right-line {
+	border: 1px solid #ffffff;
+}
+.icon {
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	width: 7rem;
+	height: 7rem;
+	border: 2px solid #e2f6ff;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 30px;
+}
+.icon img {
+    height: 90%;
+    width: auto;
+}
+.easy-steps {
+	width: auto;
+	padding-top: 40px;
+	background: url('../images/Vector Smart Object1.png' );
+}
+.easy-steps .cards {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.sales-comparison {
+	display: flex;
+	justify-content: center;
+	color: #ffffff;
+}
+.sales-comparison div {
+	margin: 0 5px 0 5px;
+	width: 370px;
+}
+.sales-comparison div:first-child ul li {
+	padding-left: 28px;
+}
+.pillar-2 li:nth-of-type(1n+2), .pillar-3 li:nth-of-type(1n+2) {
+	padding-left: 60px;
+	background: url('../images/Forma 1 copy.png') no-repeat #f26522;
+	background-position: 20px center, calc(100% - 10px) center;
+}
+.pillar-2 li:first-child, .pillar-3 li:first-child {
+	padding-left: 23px;
+	font-size: 22px;
+	font-weight: 500;
+}
+.cell {
+	background: #f26522;
+	height: 65px;
+	border-bottom: 1px solid white;
+	display: flex;
+	align-items: center;
+	line-height: 1.3;
+}
+.estate-news {
+	margin-top: 280px;
+	background: url('../images/Vector Smart Object.png') no-repeat;
+	color: #fff;
+	margin-bottom: 0 !important;
+	max-height: 536px !important;
+}
+.estate-news h2 {
+	padding-top: 70px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.estate-news section > p {
+	padding-bottom: 10px;
+	font-size: 25px;
+}
+.fields-to-fill {
+	background-position: left bottom !important;
+	background-size: 45% !important;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Roboto', sans-serif;
+	background: url('../images/Vector Smart Object1234.png') no-repeat;
+}
+.house-instantly, .get-in-touch {
+	padding: 20px 30px;
+	box-shadow: 0 0 20px 0 rgba(73, 195, 242, 0.3);
+}
+.house-instantly {
+	margin-right: 30px;
+	width: 400px;
+	height: 400px;
+}
+#get-offer-button {
+	color: #fff;
+	background: #f26522;
+	border: none;
+	align-items: flex-start !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 1px 25px 1px 25px;
+}
+#get-offer-button:hover {
+	cursor: pointer;
+}
+.house-instantly form input {
+	height: 60px;
+	width: 400px;
+}
+.house-instantly form input:first-child {
+	border: 2px solid #eff2f2;
+	color: #bdbdbd;
+}
+.house-instantly h4 {
+	padding: 30px 0 20px 0;
+}
+.house-instantly form input {
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+.house-instantly form p:first-child input {
+	margin-top: 50px;
+	font-size: 16px;
+	padding-left: 20px;
+}
+.house-instantly p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #707070;
+}
+.get-in-touch p {
+	margin-bottom: 20px;
+}
+.get-in-touch span {
+	font-size: 30px;
+	color: #333333;
+	font-weight: 600;
+	line-height: 2;
+}
+.get-in-touch form input {
+	box-sizing: border-box;
+	width: 520px;
+	height: 50px;
+	padding-left: 20px;
+	font-size: 16px;
+	color: #b7b7b7;
+	border: 1px solid #cff0ff;
+}
+.get-in-touch form p:last-child {
+    text-align: right;
+    margin-bottom: 0;
+}
+#submit-now-button {
+	color: #fff;
+	background: #f26522;
+	border: none;
+	align-items: flex-start !important;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 1px 25px 1px 25px;
+	width: 210px;
+	margin-bottom: none !important;
+}
+#submit-now-button:hover {
+	cursor: pointer;
+}
+.fields-to-fill form input::placeholder {
+	color: #b7b7b7; /* Цвет текста */
+}
+.get-in-touch form textarea {
+	box-sizing: border-box;
+	resize: none;
+	padding-left: 20px;
+	height: 210px;
+	width: 520px;
+	font-size: 16px;
+	border: 1px solid #cff0ff;
+}
+.get-in-touch form textarea::placeholder {
+	color: #b7b7b7; /* Цвет текста */
+	font-size: 16px;
+	font-family: Roboto;
+    line-height: 3.75;
+}
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px; 
+	background: #1e1e1e;
+}
+footer p {
+	font-size: 16px;
+	color: #bdbdbd;
+}
