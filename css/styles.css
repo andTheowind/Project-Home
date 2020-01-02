@@ -381,7 +381,7 @@ article h4 {
 	cursor: pointer;
 }
 .fields-to-fill form input::placeholder {
-	color: #b7b7b7; /* Цвет текста */
+	color: #b7b7b7;
 }
 .get-in-touch form textarea {
 	box-sizing: border-box;
@@ -393,7 +393,7 @@ article h4 {
 	border: 1px solid #cff0ff;
 }
 .get-in-touch form textarea::placeholder {
-	color: #b7b7b7; /* Цвет текста */
+	color: #b7b7b7;
 	font-size: 16px;
 	font-family: Roboto;
     line-height: 3.75;
